@@ -15,6 +15,7 @@ import services.EmployeeService;
  * 認証に関する処理を行うActionクラス
  *
  */
+@SuppressWarnings("unused")
 public class AuthAction extends ActionBase {
 
     private EmployeeService service;
@@ -97,8 +98,6 @@ public class AuthAction extends ActionBase {
             forward(ForwardConst.FW_LOGIN);
         }
     }
-
-
 
 
 }
